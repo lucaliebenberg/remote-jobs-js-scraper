@@ -4,9 +4,11 @@ block content
   h1 Here is the List of your Today's Remote Jobs
   ul  
     for job in jobs
-      span Title: #{job.title} 
+      span Title: #{job.title}
+      br 
       span Company: #{job.company} 
-      span technologies: 
+      br
+      span Technologies: 
       for tech in job.technologies
         span #{tech} 
       br 
