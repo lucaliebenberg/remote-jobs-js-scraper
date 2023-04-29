@@ -1,6 +1,6 @@
 # RemoteJobs Web Scraper
 NodeJS and Puppeteer Scraper
-Live demo [coming soon](...).
+Live demo [coming soon]().
 
 ## Table of Contents
 * [General Info](#general-information)
