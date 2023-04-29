@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Nodejs Puppeteer Web Scraping",
   "main": "index.js",
-  "author": "Islem Penywis",
+  "author": "Luca Liebenberg",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "node remotejobs-scraper/index.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "cron": "^1.8.2",
