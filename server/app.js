@@ -6,7 +6,7 @@ var logger = require("morgan");
 
 var indexRouter = require("./routes/index");
 
-const remoteJobsScraper = require("../remotejobs-scraper");
+const remoteJobsScraper = require("../index");
 
 //Start Scheduler
 require("../scheduler");
