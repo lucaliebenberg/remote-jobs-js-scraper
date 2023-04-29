@@ -33,7 +33,7 @@ async function loadLatestJobs(page) {
   const todaysJobsBody = await page.$("tbody");
   const bodyRows = await todaysJobsBody.$$("tr");
 
-  const rowsMapping = bodyRows.map(async (row) => {
+  const rowsMapping = bodyRows.map(async row => {
     const jobTitleElement = await row.$("[itemprop=title]");
     if (jobTitleElement) {
       const titleValue = await getPropertyValue(jobTitleElement, "innerText");
@@ -48,7 +48,7 @@ async function loadLatestJobs(page) {
       }
       const tags = await row.$$(".tag");
       technologies = await Promise.all(
-        tags.map(async (tag) => {
+        tags.map(async tag => {
           const tagContent = await tag.$("h3");
           return (
             await getPropertyValue(tagContent, "innerText")

@@ -1,32 +1,16 @@
 {
-  "name": "remote-jobs-js-scraper",
+  "name": "webscraping",
   "version": "1.0.0",
-  "description": "",
+  "description": "Nodejs Puppeteer Web Scraping",
   "main": "index.js",
+  "author": "Islem Penywis",
+  "license": "MIT",
+  "private": false,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node remotejobs-scraper/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lucaliebenberg/remote-jobs-js-scraper.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lucaliebenberg/remote-jobs-js-scraper/issues"
-  },
-  "homepage": "https://github.com/lucaliebenberg/remote-jobs-js-scraper#readme",
   "dependencies": {
-    "cookie-parser": "^1.4.6",
-    "debug": "^4.3.4",
-    "express": "^4.18.2",
-    "http-errors": "^2.0.0",
-    "morgan": "^1.10.0",
-    "pug": "^3.0.2",
-    "puppeteer": "^19.11.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.22"
+    "cron": "^1.8.2",
+    "puppeteer": "^2.1.1"
   }
 }
