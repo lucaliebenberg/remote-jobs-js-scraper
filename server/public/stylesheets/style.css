@@ -3,14 +3,13 @@ body {
   font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+h1 {
+  padding-left: 2.5rem;
+}
 a {
   color: #00B7FF;
 }
 
-span {
+/* span {
   font-weight: bold;
-}
-
-.title {}
-.company {}
-.technologies {}
+} */
